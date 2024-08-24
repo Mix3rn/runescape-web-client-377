@@ -3,7 +3,7 @@ export class Configuration {
     /**
      * IP Address or Hostname of the server to establish a connection.
      */
-    public static SERVER_ADDRESS: string = "127.0.0.1"; //127.0.0.1
+    public static SERVER_ADDRESS: string = "89.162.38.54"; //127.0.0.1
 
     /**
      * Port for establishing a connection to the game server.
@@ -29,7 +29,7 @@ export class Configuration {
     /**
      * Whether or not the network packets should be encrypted.
      */
-    public static RSA_ENABLED: boolean = true;
+    public static RSA_ENABLED: boolean = false;
 
     /**
      * Public key to be used in RSA network encryption.
